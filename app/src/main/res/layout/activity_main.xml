@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@android:color/black"
+  tools:context=".MainActivity">
+
+<!--  app:lineEndColor="#2F03F4"
+    app:lineStartColor="#ff0000"-->
+  <com.gioppl.humiditysliderview.SlideView2
+    android:id="@+id/sv_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    android:layout_marginBottom="50dp"
+    android:background="@android:color/black"
+    app:buttonColor="#ffffff"
+    app:circleR="100"
+    app:colorTextSelect="#2196F3"
+    app:divideNum="10"
+    app:isRatio="false"
+    app:lineEndColor="#2F03F4"
+    app:lineStartColor="#ff0000"
+    app:markColor="#383838"
+    app:markToLineMargin="30"
+    app:maxNum="100"
+    app:minNum="0"
+    app:normalMarkLength="30"
+    app:orientation="horizontal"
+    app:specialMarkLength="50"
+    app:textColor="#ffffff" />
+
+</RelativeLayout>

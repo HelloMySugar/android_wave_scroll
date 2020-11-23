@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="SlideView">
+    <attr name="maxNum" format="integer" />
+    <attr name="minNum" format="integer" />
+    <attr name="orientation">
+      <enum name="horizontal" value="0" />
+      <enum name="vertical" value="1" />
+    </attr>
+    <!--    按钮的颜色    -->
+    <attr name="buttonColor" format="color" />
+    <!--   滑动线两端的颜色     -->
+    <attr name="lineStartColor" format="color" />
+    <!--   滑动线中间的颜色    -->
+    <attr name="lineEndColor" format="color" />
+    <attr name="divideNum" format="integer" />
+    <!--   按钮的半径     -->
+    <attr name="circleR" format="integer" />
+    <!--   刻度线的颜色     -->
+    <attr name="markColor" format="color" />
+    <!--   文字的颜色     -->
+    <attr name="textColor" format="color" />
+    <!--   文字被选中时候的颜色     -->
+    <attr name="colorTextSelect" format="color" />
+    <!--   是否是百分比数     -->
+    <attr name="isRatio" format="boolean" />
+    <!--   普通的刻度的长度     -->
+    <attr name="normalMarkLength" format="float" />
+    <!--   五的倍数的刻度的长度     -->
+    <attr name="specialMarkLength" format="float" />
+    <!--   刻度线和滑动线的距离     -->
+    <attr name="markToLineMargin" format="float" />
+  </declare-styleable>
+</resources>
